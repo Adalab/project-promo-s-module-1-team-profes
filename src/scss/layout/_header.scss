@@ -1,5 +1,15 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/header-background-1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header .title {
+  height: 60px;
+  text-transform: uppercase;
+  opacity: 0.95;
+  background-color: var(--blue-green);
+  color: white;
 }
